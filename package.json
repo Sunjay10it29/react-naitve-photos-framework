@@ -1,5 +1,5 @@
 {
-  "name": "@vforvasile/react-native-photos-framework",
+  "name": "react-native-photos-framework",
   "version": "1.0.2",
   "description": "Fork from https://github.com/olofd/react-native-photos-framework with RN 0.59 issue, removed Android script, lib for IOS only",
   "main": "index.js",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vforvasile/react-native-photos-framework.git"
+    "url": "https://github.com/Sunjay10it29/react-naitve-photos-framework.git"
   },
   "keywords": [
     "album",
@@ -68,5 +68,5 @@
   "bugs": {
     "url": "https://github.com/vforvasile/react-native-photos-framework/issues"
   },
-  "homepage": "https://github.com/vforvasile/react-native-photos-framework#readme"
+  "homepage": "https://github.com/Sunjay10it29/react-naitve-photos-framework.git"
 }
