@@ -1,17 +1,10 @@
 {
   "name": "react-native-photos-framework",
   "version": "1.0.2",
-  "description": "Fork from https://github.com/olofd/react-native-photos-framework with RN 0.59 issue, removed Android script, lib for IOS only",
+  "description": "Android script, lib for IOS only",
   "main": "index.js",
   "directories": {
     "test": "test"
-  },
-  "scripts": {
-    "postinstall": "node install.js",
-    "test": "jest",
-    "test-ios": "set -o pipefail && xcodebuild test -verbose -project example/ios/Example.xcodeproj -scheme Example -destination 'id=E40727B3-41FB-4D6E-B4CB-BFA87109EB12' | xcpretty",
-    "update": "git add . && git commit -m \"Updated\" && npm version patch && git push --tags && git push origin master && npm publish",
-    "update-small": "git add . && git commit -m \"Updated\" && git push origin master"
   },
   "devDependencies": {
     "babel-cli": "^6.23.0",
@@ -21,13 +14,6 @@
     "jest": "^19.0.2",
     "jest-react-native": "^18.0.0",
     "prop-types": "^15.5.10"
-  },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/example/",
-      "local-cli/"
-    ]
   },
   "repository": {
     "type": "git",
@@ -55,7 +41,6 @@
     "LICENSE",
     "ios/",
     "src/",
-    "local-cli/",
     "index.js",
     "README.md",
     "install.js",
@@ -63,10 +48,7 @@
     "react-native-photos-framework.podspec"
   ],
   "nativePackage": true,
-  "author": "VforVasile",
+  "author": "Sunny",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vforvasile/react-native-photos-framework/issues"
-  },
   "homepage": "https://github.com/Sunjay10it29/react-naitve-photos-framework.git"
 }
