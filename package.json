@@ -1,6 +1,6 @@
 {
   "name": "RNPhotosFramework",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "description": "Android script, lib for IOS only",
   "main": "index.js",
   "directories": {
