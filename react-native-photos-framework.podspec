@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
                      :tag => "master" }
   s.source_files = 'ios/**/*.{h,m}'
   #s.platform     = :ios, "9.3"
-  s.dependency 'React'
+  s.dependency 'React-Core'
 end
