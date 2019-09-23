@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => pkg["repository"]["url"],
                      :tag => "master" }
   s.source_files = 'ios/**/*.{h,m}'
-  #s.platform     = :ios, "9.3"
-  s.dependency 'React-Core'
+  s.platform     = :ios, "9.3"
+  s.dependency 'React'
 end
